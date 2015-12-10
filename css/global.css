@@ -1,0 +1,85 @@
+* {margin: 0; padding: 0; }
+body {font-size: 14px; font-family: Microsoft Yahei, Helvetica, sans-serif; color: #444; }
+ul li {list-style: none; }
+p {line-height: 1.8em; }
+a {text-decoration: none; color: #444; }
+
+
+.container {margin: 0 auto; background: #fff; }
+
+
+.logo {width: 1000px; height: 80px; margin: 0 auto; margin-bottom: 3px; position: relative; }
+.logo p {font-size: 20px; color: #999; }
+.logo .hotline {position: absolute; height: 70px; right: 0; bottom: 0; }
+
+
+.nav-wrapper {display: block; width: 1000px; height: 40px; line-height: 40px; margin: 0 auto; margin-bottom: 10px; background: #296776; box-shadow: 0 2px 2px #333; border-radius: 3px; background: #296776; }
+.nav {display: block; width: 984px; height: 40px; line-height: 40px; margin: 0 auto; }
+.nav .item {float: left; }
+.nav .item a {display: inline-block; width: 160px; height: 36px; line-height: 36px; text-decoration: none; text-align: center; font-size: 15px; border: 2px solid #296776; color: #fff; }
+.nav .item a:hover {height: 30px; line-height: 30px; border-radius: 3px; border: 2px solid #fe6; color: #fe6; }
+.pic {display: block; width: 1000px; height: 300px; margin: 0 auto 15px; border-radius: 3px; overflow: hidden; }
+.box-title {color: #296776; font-size: 16px; font-weight: bold; font-family: Microsoft YaHei; border-bottom: 1px solid #ccc; padding-bottom: 6px; margin-bottom: 15px; }
+
+
+.content {width: 958px; margin: 0 auto; padding: 20px 20px 30px 20px; background: #fff; border: 1px solid #ccc; border-radius: 4px; overflow: hidden; }
+.content .left-side {display: block; float: left; width: 220px; padding: 10px; padding-bottom: 20px; border-radius: 4px; margin-right: 10px; border: 1px solid #ccc; }
+.content .left-side p {font-size: 13px; font-family: Helvetica, sans-serif; }
+.content .right-side {display: block; float: right; width: 660px; padding: 10px 15px; padding-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 12px; font-family: Arial, sans-serif; }
+.content .right-side p {line-height: 26px; text-indent: 2em; text-align: justify; text-justify: distribute-all-lines; /*ie6-8*/ text-align-last: justify; /* ie9*/ -moz-text-align-last: justify; /*ff*/ -webkit-text-align-last: justify; /*chrome 20+*/ }
+
+
+.news-title {padding-top: 10px; font-size: 20px; font-weight: bold; text-align: center; }
+.news-time {line-height: 26px; text-align: center; padding-bottom: 5px; color: #999; }
+.news-content {text-indent: 2em; text-align: justify; text-justify: distribute-all-lines; /*ie6-8*/ text-align-last: justify; /* ie9*/ -moz-text-align-last: justify; /*ff*/ -webkit-text-align-last: justify; /*chrome 20+*/ }
+.news-content p {line-height: 26px; }
+.news-date {float: right; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+
+
+.product-item {display: block; float: left; width: 168px; height: 170px; border: 3px solid #fff; margin-right: 15px; margin-bottom: 10px; margin-right: 15px; overflow: hidden; }
+.product-item:hover {border: 3px solid #296776; }
+.product-big {width: 400px; margin: 0 auto; padding-top: 10px; }
+.product-title {text-align: center; padding: 10px 0; font-size: 20px; font-weight: bold; font-family: Helvetica, sans-serif; font-size: 20px; ; }
+
+
+.location {width: 600px; margin: 30px auto; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+.contact, .intro, .news {display: block; width: 312px; height: 240px; margin-right: 10px; overflow: hidden; }
+.news {margin-right: 0; }
+.contact .title, .intro .title, .news .title, .product .title {padding: 8px 10px; font-weight: bold; font-size: 16px; color: #296776; border-bottom: 1px solid #d8d8d8; position: relative; }
+.contact .cont, .intro .cont, .news .cont {display: block; height: 180px; width: 293px; padding: 10px; line-height: 24px; word-wrap: break-word; text-overflow: ellipsis; word-wrap: break-word; font-family: Helvetica, sans-serif; color: #555; font-size: 13px; }
+.news-item {padding-left: 10px; line-height: 28px; font-size: 13px; font-family: sans-serif; border-bottom: 1px dashed #ccc; background: url("../images/icon.png") no-repeat 3px center; }
+
+
+.product {display: block; width: 960px; height: 226px; overflow: hidden; margin-top: 5px; position: relative; }
+.product .product-wrapper {display: block; width: 890px; height: 175px; padding-top: 15px; margin: 0 auto; overflow: hidden; position: relative; }
+.product .product-wrapper .product-list {position: absolute; width: 3540px; height: 150px; left: 0; top: 15px; }
+.product .product-wrapper .product-list .item {display: block; float: left; width: 168px; height: 168px; border: 1px solid #ddd; margin-right: 10px; overflow: hidden; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -ms-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
+.product .product-wrapper .product-list .item:hover {border: 1px solid #fff; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+.product .product-wrapper .product-list .item a {display: block; width: 170px; height: 140px; overflow: hidden; }
+
+
+.buxiugang, .lvhejin, .tangang, .gaotie, .jinrong, .tongxun, .gongcheng, .fangzhi, .lendong, .shiyanshi, .yiliao {width: 168px; height: 140px; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -ms-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
+.buxiugang {background: url(../images/product/buxiugang.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.lvhejin {background: url(../images/product/lvhejin.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.tangang {background: url(../images/product/tangang.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.gaotie {background: url(../images/product/gaotie.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.jinrong {background: url(../images/product/jinrong.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.tongxun {background: url(../images/product/tongxun.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.gongcheng {background: url(../images/product/gongcheng.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.fangzhi {background: url(../images/product/fangzhi.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.lendong {background: url(../images/product/lendong.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.shiyanshi {background: url(../images/product/shiyanshi.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.yiliao {background: url(../images/product/yiliao.jpeg) center center no-repeat; -webkit-background-size: contain; background-size: contain; }
+.buxiugang:hover, .lvhejin:hover, .tangang:hover, .gaotie:hover, .jinrong:hover, .tongxun:hover, .gongcheng:hover, .fangzhi:hover, .lendong:hover, .shiyanshi:hover, .yiliao:hover {-webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); } 
+
+
+.footer {display: block; width: 1000px; margin: 0 auto; margin-top: 8px; padding: 20px 0 25px; text-align: center; line-height: 23px; background-color: #296776; color: #fff; border-radius: 3px; font-size: 12px; font-family: Microsoft YaHei; }
+.footer a {color: #fff; }
+.footer a:hover {text-decoration: underline; }
+
+
+.center {line-height: 24px; text-align: center; font-size: 13px; font-family: Microsoft YaHei, Helvetica, sans-serif; }
+.more {position: absolute; right: 10px; bottom: 8px; }
+.more a {color: #999; font-size: 12px; font-family: Helvetica, sans-serif; }
+.fl {float: left; }
+.clear {clear: both; } /* CSS Document */
