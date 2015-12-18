@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.428;
+    font-family: Tahoma, Helvetica, "Microsoft YaHei", sans-serif;
+}
+
+div, p, a, button{
+    font-family: Tahoma, Helvetica, "Microsoft YaHei", sans-serif;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+    background-color: #f1f11f;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    border: 0;;
+}

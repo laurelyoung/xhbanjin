@@ -16,6 +16,6 @@
     <meta name="author" content="laurel" />
     <title>苏州枭航精密钣金有限公司</title>
     <link rel="stylesheet" type="text/css" href="css/global.css" />
-    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js" charset="utf-8"></script>
 </head>
