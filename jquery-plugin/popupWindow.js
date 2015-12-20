@@ -6,12 +6,12 @@
  * 3.创建弹出框标题和弹出框内容,添加到弹出框内
  * Created by laurel on 15/12/19.
  */
-function popupWindow(title, content, width, height, needAnimate) {
-    var title = title || '弹出框标题';
-    var content = content || '弹出框内容';
-    var width = width || 350;
-    var height = height || 180;
-    var needAnimate = needAnimate || false;
+function PopupWindow(title, content, width, height, needAnimate, func) {
+    title = title || '弹出框标题';
+    content = content || '弹出框内容';
+    width = width || 350;
+    height = height || 180;
+    needAnimate = needAnimate || false;
 
     // 添加遮罩层
     var mask = $('<div></div>');
@@ -26,7 +26,7 @@ function popupWindow(title, content, width, height, needAnimate) {
     });
 
     // 创建弹出框
-    var popupWindowBox = $('<div id="popupWindow"></div>');
+    var popupWindowBox = $('<div id="PopupWindow"></div>');
     popupWindowBox.appendTo(document.body);
 
     // 设置弹出框的样式
@@ -124,6 +124,9 @@ function popupWindow(title, content, width, height, needAnimate) {
     cancelBtn.appendTo(popupWindowContentBox);
 
     okBtn.on('click', function () {
+        if (jQuery.isFunction(func)) {
+            func();
+        }
         removePopupWindow();
     });
 
@@ -138,7 +141,7 @@ function popupWindow(title, content, width, height, needAnimate) {
             top: 150
         }, 600, 'easeOutCubic', function () {
             // 鼠标点击除了弹出框本身之外的任何地方,均可退出
-            $('div:not(#popupWindow)').on('click', function () {
+            $('div:not(#PopupWindow)').on('click', function () {
                 removePopupWindow();
             })
         });
