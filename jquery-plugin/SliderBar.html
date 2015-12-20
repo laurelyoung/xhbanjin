@@ -47,14 +47,21 @@
     <div class="slider"></div>
 </div>
 
-<div class="container"></div>
+<div id="container"></div>
+<div id="percentage"></div>
 
 <script type="text/javascript">
     $(function () {
         $('.slider').on('click', function () {
             $(document.body).SliderBar({
-                barWidth: 1000
-            }).addClass('aa');
+                barWidth: 1000,
+                onChanging: function (percentage, e) {
+                    $('#percentage').html((percentage * 100).toFixed(2) + '%<br/>' + e);
+                },
+                onChanged: function (percentage, e) {
+                    $('#percentage').html((percentage * 100).toFixed(2) + '%<br/>' + e);
+                }
+            });
         })
     })
 </script>
